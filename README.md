@@ -18,7 +18,7 @@
 손 인식	mediapipe or yolo pose
 
 유사 프로젝트
-
+https://github.com/Demolus13/Open-Manipulator-LLM
 open manipulator llm 이라는 이름의 github 프로젝트 있음
 이 프로그램 참고하여 손 인식 등의 추가 옵션 성공하면
 vlm을 활용해 음성과 이미지 인식을 통합
