@@ -76,4 +76,6 @@ VLM을 활용해 음성과 이미지 인식을 통합
 
 ## 3. VLM 구현 파이프라인
 
--
+<img width="2814" height="1536" alt="Gemini_Generated_Image_9oq63i9oq63i9oq6" src="https://github.com/user-attachments/assets/06b35a76-6272-412e-ba3a-11393f920ab4" />
+
+
