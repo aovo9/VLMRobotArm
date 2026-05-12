@@ -1,6 +1,6 @@
-## Open-Manipulator-VLM
+# Open-Manipulator-VLM
 
-# 하드웨어
+## 하드웨어
 
 	- 젯슨 오린
 	
@@ -10,7 +10,7 @@
 	
 	- 키보드, 마우스, 모니터, 마이크
 
-# 소프트웨어
+## 소프트웨어
 
 	- VS Code
 
@@ -24,7 +24,7 @@
 
 	- **손 인식 :** mediapipe or YOLO Pose
 
-# 유사 프로젝트
+## 유사 프로젝트
 
 	[https://github.com/Demolus13/Open-Manipulator-LLM]
 
@@ -32,13 +32,13 @@
 
 
 
-# 유사 프로젝트 진행 상황
+## 유사 프로젝트 진행 상황
 
 	유사 프로젝트의 작업 환경이 ROS Noetic 이기에 ROS2 Humble 환경으로 코드 마이그레이션 진행
 	
 
 
-# 과정
+## 과정
 
 	환경 설정
 	하드웨어 및 각 노드 동작 확인 (omx, whisper 등)
