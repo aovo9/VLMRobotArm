@@ -1,42 +1,44 @@
-하드웨어
+## Open-Manipulator-VLM
 
-	젯슨 오린
+# 하드웨어
+
+	- 젯슨 오린
 	
-	Open Manipulator-X
+	- Open Manipulator-X
 	
-	리얼센스 d435
+	- 리얼센스 d435
 	
-	키보드, 마우스, 모니터, 마이크
+	- 키보드, 마우스, 모니터, 마이크
 
-소프트웨어
+# 소프트웨어
 
-	VS Code
+	- VS Code
 
-	Python
+	- Python
 
-	로봇제어	: ROS2 humble / Ubuntu 22.04
+	- **로봇제어	:** ROS2 humble / Ubuntu 22.04
 
-	음성인식 : whisper
+	- **음성인식 :** whisper
 
-	이미지 : YOLO V11
+	- **이미지 :** YOLO V11
 
-	손 인식 : mediapipe or YOLO Pose
+	- **손 인식 :** mediapipe or YOLO Pose
 
-유사 프로젝트
+# 유사 프로젝트
 
-	https://github.com/Demolus13/Open-Manipulator-LLM
+	[https://github.com/Demolus13/Open-Manipulator-LLM]
 
 	이 프로그램 참고하여 손 인식 등의 추가 옵션 성공하면 VLM을 활용해 음성과 이미지 인식을 통합
 
 
 
-유사 프로젝트 진행 상황
+# 유사 프로젝트 진행 상황
 
 	유사 프로젝트의 작업 환경이 ROS Noetic 이기에 ROS2 Humble 환경으로 코드 마이그레이션 진행
 	
 
 
-과정
+# 과정
 
 	환경 설정
 	하드웨어 및 각 노드 동작 확인 (omx, whisper 등)
