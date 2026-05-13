@@ -36,7 +36,7 @@ VLM을 활용해 음성과 이미지 인식을 통합
 # 프로젝트 진행 상황
 
 ## 1. 유사 프로젝트 동작 정리
-
+- [각 파일별 기능 설명](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=35b7883f6ca8807f8b74f070a14859a5&pm=s)
 - **환경 :** ROS1 Noetic
 - **색상 기반 탐지 :** OpenCV를 활용해 HSV 범위를 기준으로 특정 색상을 지닌 객체 검출
 - **좌표 계산(Calibration) :**
