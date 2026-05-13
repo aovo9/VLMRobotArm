@@ -59,7 +59,8 @@ VLM을 활용해 음성과 이미지 인식을 통합
 
   - **클라이언트 라이브러리 교체 :** rospy → rclpy
   - **빌드 환경 변경 :** catkin → colcon
-  - **통신 방식 변경 :** Service → Topic (ros2_control이 topic[publisher-subscriber] 방식을 사용함)
+  - **통신 방식 변경 :** Service → Topic
+     - (ros2_control이 topic [publisher-subscriber] 방식을 사용함)
 
 - **코드 실행 :**
   수정된 Pick_and_place.py 실행
