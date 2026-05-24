@@ -70,9 +70,17 @@ VLM을 활용해 음성과 이미지 인식을 통합
   - ☑ Realsense를 통한 색상 기반 객체 탐지
   - ☑ 텍스트 입력으로 LLM이 색상과 동작 추출 후 OMX 제어
   - ☑ OMX가 Pick & Place를 정확하게 수행하는가?
-  - ☐ 음성을 텍스트로 정확히 변환하는가?
+  - ☑ 음성을 텍스트로 정확히 변환하는가?
 
 ## 3. VLM 구현 파이프라인
 
 <img width="2814" height="1536" alt="Gemini_Generated_Image_9oq63i9oq63i9oq6" src="https://github.com/user-attachments/assets/06b35a76-6272-412e-ba3a-11393f920ab4" />
+
+## 4. 프로젝트 역할
+  - **1.ROS2 제어**
+      - [구현 목표 및 단계별 서술](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=3697883f6ca880d09e28d8913dbbe224&pm=s)
+  - **2.Vision Sensor 제어**
+      - [구현 목표 및 단계별 서술](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=3697883f6ca88023a1f6cb946a59b5b0&pm=s)
+  - **3.VLM/음성인식**
+  - **4.YOLO**
 
