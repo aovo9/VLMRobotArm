@@ -83,5 +83,7 @@ VLM을 활용해 음성과 이미지 인식을 통합
   - **2.Vision Sensor 제어**
       - [구현 목표 및 단계별 서술](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=3697883f6ca88023a1f6cb946a59b5b0&pm=s)
   - **3.VLM/음성인식**
+      - [구현 목표 및 단계별 서술](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=36c7883f6ca880a7aa09e69ab5f09f7e&pm=s)
   - **4.YOLO**
+      - [구현 목표 및 단계별 서술](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=36c7883f6ca880d9b2b3e4b0b26c8a23&pm=s)
 
