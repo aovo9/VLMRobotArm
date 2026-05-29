@@ -3,7 +3,7 @@
 ## 하드웨어
 - Jetson orin
 - Open Manipulator-X
-- Realsense d435
+- Realsense d435i
 - 키보드, 마우스, 모니터, 마이크
 
 ## 소프트웨어
@@ -72,9 +72,10 @@ VLM을 활용해 음성과 이미지 인식을 통합
   - ☑ OMX가 Pick & Place를 정확하게 수행하는가?
   - ☑ 음성을 텍스트로 정확히 변환하는가?
 
-## 3. VLM 구현 파이프라인
+## 3. 음성기반 VLM 데스크 로봇 시스템 파이프라인
 
-<img width="500" height="700" alt="ChatGPT Image 2026년 5월 27일 오전 12_05_21" src="https://github.com/user-attachments/assets/b9da522b-b930-4d36-a2b9-d99f1eeb7a95" />
+<img width="1536" height="1024" alt="ChatGPT Image 2026년 5월 30일 오전 03_10_53" src="https://github.com/user-attachments/assets/e5b1dbb1-8915-4686-bd74-0cc4dde8e2e1" />
+
 
 
 ## 4. 프로젝트 역할
