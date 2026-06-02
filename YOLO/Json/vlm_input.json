@@ -1,0 +1,50 @@
+{
+    "voice_command": {
+        "timestamp": "2026-06-02T17:34:18.500493",
+        "language": "ko",
+        "text": "휴대폰, 집어,"
+    },
+    "detected_objects": [
+        {
+            "id": 1,
+            "class": "cell phone",
+            "confidence": 0.738,
+            "bbox": [
+                616,
+                222,
+                961,
+                493
+            ],
+            "center_pixel": [
+                788,
+                357
+            ]
+        },
+        {
+            "id": 2,
+            "class": "mouse",
+            "confidence": 0.5105,
+            "bbox": [
+                978,
+                313,
+                1206,
+                555
+            ],
+            "center_pixel": [
+                1092,
+                434
+            ]
+        }
+    ],
+    "images": {
+        "rgb_original": "/home/jetson/Desktop/YOLO/jpg/camera_snapshot.jpg",
+        "bbox_overlay": "/home/jetson/Desktop/YOLO/jpg/camera_overlay.jpg"
+    },
+    "coordinate_system": {
+        "bbox": "original_rgb_pixel_xyxy",
+        "center_pixel": "original_rgb_pixel_xy",
+        "origin": "top_left",
+        "x_direction": "right",
+        "y_direction": "down"
+    }
+}

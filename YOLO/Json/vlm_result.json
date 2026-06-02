@@ -1,0 +1,16 @@
+{
+    "action": "pick",
+    "target_id": 1,
+    "target_class": "cell phone",
+    "target_center_pixel": [
+        788,
+        357
+    ],
+    "bbox": [
+        616,
+        222,
+        961,
+        493
+    ],
+    "reason": "사용자 명령과 일치하는 객체 'cell phone'를 선택했습니다."
+}

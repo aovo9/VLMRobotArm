@@ -1,0 +1,2 @@
+:
+{"action":"pick","target_id":1,"reason":"matched target_hint"}
