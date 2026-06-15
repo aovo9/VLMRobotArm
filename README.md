@@ -1,3 +1,4 @@
+[VLM_음성인식_Deskbot_(2).zip](https://github.com/user-attachments/files/28954631/VLM_._Deskbot_.2.zip)
 # Open-Manipulator-VLM
 
 ## 하드웨어
@@ -91,3 +92,4 @@ VLM을 활용해 음성과 이미지 인식을 통합
   ## 5. 기타
   https://gemini.google.com/share/11095d97b8e4
 
+[VLM 음성인식 Deskbot.pptx](https://github.com/user-attachments/files/28959043/VLM.Deskbot.pptx)
