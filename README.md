@@ -1,3 +1,4 @@
+<img width="732" height="965" alt="Screenshot from 2026-06-19 11-38-51" src="https://github.com/user-attachments/assets/b2b353bb-54c4-4b28-8528-fdcb7094d9a9" />
 [VLM_음성인식_Deskbot_(2).zip](https://github.com/user-attachments/files/28954631/VLM_._Deskbot_.2.zip)
 # Open-Manipulator-VLM
 
@@ -93,3 +94,5 @@ VLM을 활용해 음성과 이미지 인식을 통합
   https://gemini.google.com/share/11095d97b8e4
 
 [VLM 음성인식 Deskbot.pptx](https://github.com/user-attachments/files/28959043/VLM.Deskbot.pptx)
+<img width="710" height="983" alt="Screenshot from 2026-06-19 11-39-37" src="https://github.com/user-attachments/assets/fb051118-213b-4c89-b976-9b0ce513bb13" />
+
