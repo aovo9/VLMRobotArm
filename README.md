@@ -99,6 +99,9 @@ VLM을 활용해 음성과 이미지 인식을 통합
 [Deskbot_Ultra_EyeToHand_Design_Handoff_2026-08-18.txt](https://github.com/user-attachments/files/31716311/Deskbot_Ultra_EyeToHand_Design_Handoff_2026-08-18.txt)
 [분석보고서.txt](https://github.com/user-attachments/files/31716312/default.txt)
 
+  # 노션 정리
+  [ https://app.notion.com/p/3d4714226cef80d19c32fd2c04ed26b5 ]
+
 
  ## 7. 향후 변경점
  # YOLOv8 -> YOLOE
