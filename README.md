@@ -21,6 +21,9 @@
 이 프로그램 참고하여 손 인식 등의 추가 옵션 성공하면
 VLM을 활용해 음성과 이미지 인식을 통합
 
+[Lerobot](https://github.com/huggingface/lerobot/blob/main/examples/omx/README.md)
+ACT pick and place 예제
+
 ## 과정
 
 - 환경 설정
