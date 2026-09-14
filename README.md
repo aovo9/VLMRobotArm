@@ -140,3 +140,6 @@ ACT pick and place 예제
  - **FSM을 추가하면서 TTS도 같이 구현할 것인지?**
  - 
   
+# backup file
+- **9/14 ver.1**
+- [deskbot.zip](https://github.com/user-attachments/files/32176559/deskbot.zip)
