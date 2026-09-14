@@ -141,5 +141,10 @@ ACT pick and place 예제
  - 
   
 # backup file
-- **9/14 ver.1**
+- **9/14 v-original**
 - [deskbot.zip](https://github.com/user-attachments/files/32176559/deskbot.zip)
+
+- **9/14 v1.0.0**
+- [deskbot v1.0.0.zip](https://github.com/user-attachments/files/32181785/deskbot.v1.0.0.zip)
+
+
