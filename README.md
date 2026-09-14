@@ -146,5 +146,7 @@ ACT pick and place 예제
 
 - **9/14 v1.0.0**
 - [deskbot v1.0.0.zip](https://github.com/user-attachments/files/32181785/deskbot.v1.0.0.zip)
+- [deskbot v1.01.zip](https://github.com/user-attachments/files/32184649/deskbot.v1.01.zip)
+
 
 
