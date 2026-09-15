@@ -20,7 +20,7 @@
 - LEGO Pick & Place 통합 구조 보완
 - Calibration 및 실제 동작 검증을 위한 코드 정리
 ## **26/09/15 v2.0.3**
-
+[deskbotv2.0.3.zip](https://github.com/user-attachments/files/32244827/deskbotv2.0.3.zip)
 * LEGO 1-class YOLO + VLM 색상 판별 구조 추가
 * Red / Green / Blue Bowl 매핑 추가
 * LEGO 전용 Top-down Pick & Place 흐름 추가
