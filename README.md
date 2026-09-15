@@ -1,5 +1,12 @@
 # Deskbot: VLM 기반 LEGO Pick & Place 시스템
 
+## 0. 정리 페이지
+[Deskbot-V1 프로젝트 진행](https://www.notion.so/LLM-OMX-Project-6c2483626a744a5f862b65cb9a10cb19?p=35b7883f6ca8807f8b74f070a14859a5&pm=s)
+
+[Deskbot-V1 Deskbot PPT](https://github.com/user-attachments/files/28954631/VLM_._Deskbot_.2.zip)
+
+[Deskbot-V2 프로젝트 진행](https://app.notion.com/p/3d4714226cef80d19c32fd2c04ed26b5)
+
 ## 1. 프로젝트 개요
 Deskbot은 Vision-Language Model(VLM), 객체 인식, RGB-D 카메라, ROS2 및 OpenManipulator-X를 결합한 멀티모달 로봇 Pick & Place 시스템​이다.
 
@@ -235,10 +242,10 @@ FSM과 전체 시스템이 안정화된 이후 사용자에게 현재 상태를 
 "작업이 완료되었습니다."
 
 ## 11. 참고 프로젝트 및 자료
-### Open-Manipulator-LLM
+### [Open-Manipulator-LLM](https://github.com/Demolus13/Open-Manipulator-LLM)
 기존 OpenManipulator 기반 자연어 로봇 제어 프로젝트를 초기 ROS2 마이그레이션 및 시스템 구조 설계 시 참고하였다.
 
-### LeRobot
+### [Lerobot](https://github.com/huggingface/lerobot/blob/main/examples/omx/README.md)
 OpenManipulator-X 기반 ACT 및 imitation learning 관련 향후 확장 가능성을 검토하기 위한 참고 자료로 사용한다.
 
 현재 LEGO Pick & Place 기본 시스템에서는 ACT를 사용하지 않는다.
