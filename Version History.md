@@ -19,3 +19,17 @@
 - ROS2 / OMX 제어 코드 수정 및 안정화
 - LEGO Pick & Place 통합 구조 보완
 - Calibration 및 실제 동작 검증을 위한 코드 정리
+## **26/09/15 v2.0.3**
+
+* LEGO 1-class YOLO + VLM 색상 판별 구조 추가
+* Red / Green / Blue Bowl 매핑 추가
+* LEGO 전용 Top-down Pick & Place 흐름 추가
+* Eye-to-Hand 3D 좌표 및 동일 RGB-D 검증 구조 추가
+* 파지·운반·놓기 상태 및 완료 확인 로직 추가
+* v2.0.2의 LEGO 구조 중 필요한 부분을 기존 Deskbot 코드에 선별 반영
+* 사용자 요청 색과 VLM 관측 색을 분리해 검증하도록 변경
+* 공통 LEGO 파지 profile과 개별 물체 ID를 분리하도록 변경
+* MoveIt 경로·Scene·실패/정지 처리 보완
+* 콘솔 결과 및 실패 사유 출력 개선
+* 빨간 LEGO 1개 기준 end-to-end software dry-run 완료
+* 관련 회귀 테스트 및 3개 ROS2 패키지 build 통과
