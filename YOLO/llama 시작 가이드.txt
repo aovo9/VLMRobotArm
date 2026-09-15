@@ -1,0 +1,65 @@
+
+---------------------------------실행가이드----------------------------------------------
+성능 모드 설정
+
+	sudo nvpmodel -m 0
+	sudo jetson_clocks
+
+llama.cpp 폴더로 이동
+
+	cd ~/llama.cpp
+	
+Qwen2.5-VL 서버 실행
+
+	./build/bin/llama-server \
+  -m ~/ollama_models/qwen25vl3b/Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf \
+  --mmproj ~/ollama_models/qwen25vl3b/mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf \
+  --host 0.0.0.0 \
+  --port 8080 \
+  -ngl 99 \
+  -c 8192
+  
+---------------------------------설치가이드-----------------------------------------
+  
+Qwen2.5-VL-3B  모델 파일 다운로드 
+
+ https://huggingface.co/unsloth/Qwen2.5-VL-3B-Instruct-GGUF/tree/main
+ 
+ 다운 받아야할 파일 
+ 첫번째 파일 : Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf (텍스트 처리 모델)
+ 두번째 파일 : mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf( 이미지 처리용 모델 )
+ 
+ 
+다운로드 완료후 폴더이동
+mkdir -p ~/ollama_models/qwen25vl3b
+cp ~/Downloads/*.gguf ~/ollama_models/qwen25vl3b/
+cd ~/ollama_models/qwen25vl3b
+ls
+
+
+ollama 말고 llama.cpp 로 모델 실행 방법
+
+1. 패키지 설치
+sudo apt update
+sudo apt install -y git cmake build-essential
+
+2.llama.cpp 설치
+cd ~
+git clone https://github.com/ggml-org/llama.cpp.git
+cd llama.cpp
+ 
+3.CUDA 지원으로 빌드*(jetson 에서 실행할경우 할수있음) **굉장히 오래걸렷음 약 50분**
+cmake -B build -DGGML_CUDA=ON
+cmake --build build --config Release -j4
+
+-빌드가 끝났는지 확인방법-
+ls build/bin 
+-llama-server 가 보이면 성공
+
+4. 모델 위치확인
+ ls ~/ollama_models/qwen25vl3b
+ -->Qwen2.5-VL-3B-Instruct-Q4_K_M.gguf
+ -->mmproj-Qwen2.5-VL-3B-Instruct-f16.gguf
+
+5.llama-server 실행
+  실행가이드 참조
