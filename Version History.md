@@ -36,6 +36,11 @@
 * 관련 회귀 테스트 및 3개 ROS2 패키지 build 통과
 
 ## **26/09/17 Gum-Sample**
-[runs.zip](https://github.com/user-attachments/files/32314453/runs.zip)
-
-
+[1차 시도.zip](https://github.com/user-attachments/files/32314453/runs.zip)
+[2차 시도.zip](https://github.com/user-attachments/files/32318708/lego_last_test.zip)
+- 소량 샘플 데이터셋 기반 YOLOv8 Fine-tuning 및 검증
+- 1차 학습 시 발생한 데이터셋 경로 구조 불일치 및 PermissionError 문제 수정
+- NMS 및 Confidence Threshold(conf=0.5, iou=0.5) 최적화를 통한 중복 바운딩 박스 제거
+- Early Stopping(patience) 파라미터 조정을 통한 학습 안정화
+- 2차 학습(lego_last_test) 완료 및 최적 가중치(best.pt) 도출 (mAP50 0.995, Recall 1.0 달성)
+- 프로젝트 내 자동 결과 저장 구조(project/name/exist_ok) 정립 및 파이프라인 검증 완료
