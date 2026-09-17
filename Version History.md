@@ -19,6 +19,7 @@
 - ROS2 / OMX 제어 코드 수정 및 안정화
 - LEGO Pick & Place 통합 구조 보완
 - Calibration 및 실제 동작 검증을 위한 코드 정리
+
 ## **26/09/15 v2.0.3**
 [deskbotv2.0.3.zip](https://github.com/user-attachments/files/32244827/deskbotv2.0.3.zip)
 * LEGO 1-class YOLO + VLM 색상 판별 구조 추가
@@ -33,3 +34,8 @@
 * 콘솔 결과 및 실패 사유 출력 개선
 * 빨간 LEGO 1개 기준 end-to-end software dry-run 완료
 * 관련 회귀 테스트 및 3개 ROS2 패키지 build 통과
+
+## **26/09/17 Gum-Sample**
+[runs.zip](https://github.com/user-attachments/files/32314453/runs.zip)
+
+
