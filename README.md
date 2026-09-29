@@ -250,4 +250,14 @@ OpenManipulator-X 기반 ACT 및 imitation learning 관련 향후 확장 가능�
 
 현재 LEGO Pick & Place 기본 시스템에서는 ACT를 사용하지 않는다.
 
+## [With Astra](https://internrobotics.github.io/EBench-Astra-Tech-Report/)
+현재 GPT6 Astra를 별도의 tuning 없이 Robot VLA 역할로 사용했을 때 어느정도의 정확도를 가지는지 나타내는 연구결과이다.
+이를 토대로 향후 VLA 사용시 Astra만을 이용한 zero-shot or single-shot으로 진행한다면 구현 기간을 크게 단축시킬 수 있을것으로 기대됨.
+토큰 사용은 codex를 이용한 astra 서비스 이용으로 진행할것.
+
+*간단한 작업(단순 pick and place)은 다른 기본 VLA 모델만큼의 정확도를 가지지만, 고난도 작업(컵 뒤집기, 퍼즐 맞추기)에선 크게 하락함.
+하지만 현재 deskbot은 단순 pick and place를 기반으로하니 astra를 도입해진행한다면 별도의 학습 없이 바로 구현만 해서 나타내면 가능할 것으로 보임.
+또한 위 자료는 yolo 없이 단순 astra만 가지고 작업한 것에 반해, 현재 deskbot은 YOLO를 통해 정확한 depth와 좌표를 건네주니 오히려 더 정확도가 높을것으로 기대됨.
+
+
 
