@@ -48,6 +48,6 @@
 ## **26/10/01**
 [calibration_execution.zip](https://github.com/user-attachments/files/32882810/calibration_execution.zip)
 [deskbot_calibration.zip](https://github.com/user-attachments/files/32882831/deskbot_calibration.zip)
+[joint2_settle_fix.zip](https://github.com/user-attachments/files/32883648/joint2_settle_fix.zip)
 
-[Uploading joint2_settle_fix.patch…]()
 
