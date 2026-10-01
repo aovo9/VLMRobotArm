@@ -44,3 +44,7 @@
 - Early Stopping(patience) 파라미터 조정을 통한 학습 안정화
 - 2차 학습(lego_last_test) 완료 및 최적 가중치(best.pt) 도출 (mAP50 0.995, Recall 1.0 달성)
 - 프로젝트 내 자동 결과 저장 구조(project/name/exist_ok) 정립 및 파이프라인 검증 완료
+
+## **26/10/01**
+[calibration_execution.zip](https://github.com/user-attachments/files/32882810/calibration_execution.zip)
+
