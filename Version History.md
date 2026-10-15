@@ -1,6 +1,4 @@
-[Uploading best.zip…]()
 
-[Uploading hardware.py…]()
 # Version History
 ## **26/09/14 original**
 [deskbot.zip](https://github.com/user-attachments/files/32176559/deskbot.zip)
@@ -55,5 +53,7 @@
 
 ## **26/10/15**
 [2026-10-14-omx-ai-server-handoff.zip](https://github.com/user-attachments/files/33474714/2026-10-14-omx-ai-server-handoff.zip)
+
+[best.zip](https://github.com/user-attachments/files/33502496/best.zip)
 
 
