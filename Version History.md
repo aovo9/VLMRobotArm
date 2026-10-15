@@ -51,3 +51,7 @@
 [deskbot_calibration.zip](https://github.com/user-attachments/files/32882831/deskbot_calibration.zip)
 [hardware.zip](https://github.com/user-attachments/files/32883763/hardware.zip)
 
+## **26/10/15**
+[2026-10-14-omx-ai-server-handoff.zip](https://github.com/user-attachments/files/33474714/2026-10-14-omx-ai-server-handoff.zip)
+
+
