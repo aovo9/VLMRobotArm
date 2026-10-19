@@ -1,11 +1,21 @@
-[VLM_음성인식_Deskbot_(2).zip](https://github.com/user-attachments/files/28954631/VLM_._Deskbot_.2.zip)
+
 # Open-Manipulator-VLA
 
+## 프로젝트 소개
+본 프로젝트는 Robotics사의 OpenManipulator-X AI와 Cyclointelligence를 활용하여 로봇의 시연 데이터 수집, 모방학습, 자율 동작까지 연결하는 시스템을 구축하는 것을 목표로 한다.
+이후 내용은 기존의 VLM deskbot 시스템과 동일하다.
+
+로봇 제어는 Jetson AGX Orin에서 수행하고, 데이터 처리와 AI 모델 학습은 RTX 4090 PC에서 진행하는 분산 환경으로 구성한다.
+
+최종적으로는 사용자의 한국어 명령에 따라 다양한 색상의 레고 블록을 지정된 컵으로 옮기는 Pick & Place 작업을 수행하도록 구현할 예정이다
+
 ## 하드웨어
-- Jetson orin
-- Open Manipulator-X
-- Realsense d435i
-- 키보드, 마우스, 모니터, 마이크
+- **Robot** : ROBOTIS OpenManipulator-X AI
+  - OMX-AI Follower
+  - OMX-AI Leader
+- **Robot Controller** : NVIDIA Jetson AGX orin 64GB
+- **AI Training PC** : NVIDIA GeForce RTX 4090
+- **Camera** : Realsense d435i
 
 ## 소프트웨어
 - VS Code
