@@ -1,3 +1,4 @@
+[cyclo 매뉴얼](https://github.com/user-attachments/files/33797761/Cyclo_Intelligence_Imitation_Learning_Manual.1.pdf)
 
 # Open-Manipulator-VLA
 
